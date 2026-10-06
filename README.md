@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. `npm run build` checks TypeScript and produces a static `dist/`; `npm run preview` serves that build. No API keys or backend are needed. The optional Orb uses the browser's own speech synthesis if enabled.
+Open the local URL printed by Vite, or visit the [published experience](https://luvishgulati.com/blue-machines-outreach/). `npm run build` checks TypeScript and produces a static `dist/`; `npm run preview` serves that build. No API keys or backend are needed. The optional Orb uses the browser's own speech synthesis if enabled.
 
 ## What to try
 
@@ -33,7 +33,7 @@ Before sharing, verify the résumé URL and all personal claims against the late
 
 ## GitHub Pages
 
-The included `.github/workflows/pages.yml` builds and deploys to GitHub Pages on pushes to `main`. Enable **Settings → Pages → Build and deployment → GitHub Actions** in the destination repository. `HashRouter` and Vite's relative base make deep links work on a project Pages URL without server rewrites. This local folder is not connected to a remote repository and has not been deployed.
+The included `.github/workflows/pages.yml` builds and deploys to GitHub Pages on pushes to `main`. Pages is enabled for [this repository](https://github.com/Luvishgulati03/blue-machines-outreach), and the live URL is [luvishgulati.com/blue-machines-outreach](https://luvishgulati.com/blue-machines-outreach/). `HashRouter` and Vite's relative base make deep links work without server rewrites.
 
 ## Public context
 
