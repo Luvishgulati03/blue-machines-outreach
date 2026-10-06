@@ -1,0 +1,3 @@
+@import "tailwindcss";
+:root{--bg:#07111f;--surface:#0c1726;--surface-raised:#111e30;--text:#f5f7fb;--muted:#8fa1b6;--line:rgba(255,255,255,.09);--blue:#4ba5ff;--cyan:#71e4f2;--green:#54d6a0;--amber:#f2bb64;--red:#ff7070;--purple:#a78bfa;--display:'Space Grotesk Variable',sans-serif;--body:'Inter Variable',sans-serif}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.55}button,input{font:inherit}a{color:inherit}button{cursor:pointer}:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}::selection{background:var(--cyan);color:var(--bg)}
